@@ -1,8 +1,7 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { TruckIcon, UsersIcon, ArchiveBoxIcon, ChartBarIcon, ShieldCheckIcon, ClockIcon } from '@heroicons/react/24/outline'
+import { TruckIcon, UsersIcon, BellAlertIcon, ArchiveBoxIcon, ChartBarIcon, ShieldCheckIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
 import Link from "next/link"
 import { Playfair_Display_SC } from 'next/font/google'
 
@@ -18,7 +17,7 @@ export function MarketingPage() {
         </Link>
         <div className="ml-auto">
           <Link href="https://app.cargo-navis.com">
-            <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90">Log In</Button>
+            <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90">Login</Button>
           </Link>
         </div>
       </header>
@@ -44,13 +43,27 @@ export function MarketingPage() {
               <div className="flex flex-col items-center text-center">
                 <TruckIcon className="h-12 w-12 text-[#0E6A75] mb-4" />
                 <h3 className="text-lg font-bold mb-2">Fleet Management</h3>
-                <p className="text-sm text-gray-500">Efficiently track and manage your entire fleet of trucks in real-time.</p>
+                <p className="text-sm text-gray-500">Efficiently track and manage your entire fleet of trucks.</p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <UsersIcon className="h-12 w-12 text-[#0E6A75] mb-4" />
-                <h3 className="text-lg font-bold mb-2">Employee Scheduling</h3>
-                <p className="text-sm text-gray-500">Easily create and manage employee schedules to optimize workforce efficiency.</p>
+                <h3 className="text-lg font-bold mb-2">Employee Management</h3>
+                <p className="text-sm text-gray-500">Easily manage your workforce and optimize employee efficiency.</p>
               </div>
+              <div className="flex flex-col items-center text-center">
+                <BellAlertIcon className="h-12 w-12 text-[#0E6A75] mb-4" />
+                <h3 className="text-lg font-bold mb-2">Alerts</h3>
+                <p className="text-sm text-gray-500">Get notified about the expiration of your vehicle licenses and documents.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+          <div className="container px-4 md:px-6">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-2">Roadmap</h2>
+            <h3 className="text-xl font-semibold tracking-tight sm:text-2xl text-center mb-12">Upcoming Features</h3>
+            <p className="text-center text-gray-500 mb-10">Discover the exciting features we're developing to further enhance your logistics experience.</p>
+            <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center text-center">
                 <ArchiveBoxIcon className="h-12 w-12 text-[#0E6A75] mb-4" />
                 <h3 className="text-lg font-bold mb-2">Shipment Tracking</h3>
@@ -66,11 +79,6 @@ export function MarketingPage() {
                 <h3 className="text-lg font-bold mb-2">Security & Compliance</h3>
                 <p className="text-sm text-gray-500">Ensure your operations meet industry standards with our security features.</p>
               </div>
-              <div className="flex flex-col items-center text-center">
-                <ClockIcon className="h-12 w-12 text-[#0E6A75] mb-4" />
-                <h3 className="text-lg font-bold mb-2">Real-time Updates</h3>
-                <p className="text-sm text-gray-500">Stay informed with instant notifications and real-time status updates.</p>
-              </div>
             </div>
           </div>
         </section>
@@ -78,35 +86,26 @@ export function MarketingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Navigate Your Logistics?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
                 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Join thousands of companies already using CargoNavis to streamline their operations.
+                  Have questions or want to learn more? We're here to help.
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <form className="flex space-x-2">
-                  <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
-                  <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90" type="submit">
-                    Get Started
+                <Link href="mailto:info@cargo-navis.com">
+                  <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90 inline-flex items-center space-x-2 px-4 py-2">
+                    <EnvelopeIcon className="h-5 w-5" />
+                    <span>Email Us</span>
                   </Button>
-                </form>
-                <p className="text-xs text-gray-500 dark:text-gray-400">
-                  By signing up, you agree to our{" "}
-                  <Link className="underline underline-offset-2 hover:text-primary" href="#">
-                    Terms & Conditions
-                  </Link>
-                </p>
+                </Link>
               </div>
             </div>
           </div>
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 CargoNavis. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Cargo Navis d.o.o. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms of Service
-          </Link>
           <Link className="text-xs hover:underline underline-offset-4" href="/privacy-policy">
             Privacy Policy
           </Link>
