@@ -107,9 +107,6 @@ export function PrivacyPolicyComponent() {
           <p className="text-sm text-gray-500">© 2024 CargoNavis. All rights reserved.</p>
           <nav className="flex gap-4 mt-4 sm:mt-0">
             <Link className="text-sm text-gray-500 hover:underline underline-offset-4" href="#">
-              Terms of Service
-            </Link>
-            <Link className="text-sm text-gray-500 hover:underline underline-offset-4" href="#">
               Privacy Policy
             </Link>
           </nav>

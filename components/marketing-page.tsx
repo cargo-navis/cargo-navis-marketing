@@ -17,7 +17,7 @@ export function MarketingPage() {
         </Link>
         <div className="ml-auto">
           <Link href="https://app.cargo-navis.com">
-            <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90">Login</Button>
+            <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90">Log In</Button>
           </Link>
         </div>
       </header>
@@ -27,7 +27,7 @@ export function MarketingPage() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none`}>
-                  Navigate Your Logistics with <span className={playfairDisplaySc.className}>CargoNavis</span>
+                  Navigate Your Logistics with <br/><span className={playfairDisplaySc.className}>CargoNavis</span>
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   Effortlessly manage your trucks, employees, and shipments all in one powerful platform.
@@ -82,7 +82,7 @@ export function MarketingPage() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100" style={{ background: 'linear-gradient(45deg, rgb(19 148 159 / 50%), 50%, transparent)' }}>
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -93,8 +93,8 @@ export function MarketingPage() {
               </div>
               <div className="w-full max-w-sm space-y-2">
                 <Link href="mailto:info@cargo-navis.com">
-                  <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90 inline-flex items-center space-x-2 px-4 py-2">
-                    <EnvelopeIcon className="h-5 w-5" />
+                  <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90 inline-flex items-center px-4 py-2">
+                    <EnvelopeIcon />
                     <span>Email Us</span>
                   </Button>
                 </Link>
