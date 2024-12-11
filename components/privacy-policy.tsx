@@ -23,7 +23,7 @@ export function PrivacyPolicyComponent() {
       <main className="flex-1 py-12 px-4 md:px-6 lg:px-8" style={{ background: "linear-gradient(45deg, rgb(19 148 159 / 40%), 50%, transparent)" }}>
         <div className="max-w-3xl mx-auto">
           <h1 className={`text-3xl font-bold mb-6 ${playfairDisplaySc.className}`}>Privacy Policy</h1>
-          <p className="mb-4">This privacy policy is effective as of December 12, 2024.</p>
+          <p className="mb-4 italic">This privacy policy is effective as of December 12, 2024.</p>
           <p className="mb-4">At Cargo Navis, we deeply value the trust you place in us, and we are committed to ensuring that your privacy and confidentiality are our top priorities. This Privacy Policy serves to outline our commitment to maintaining transparency and providing you with control over how your information is collected, used, and shared. If you have any questions, please send us an email to <a href="mailto:info@cargo-navis.com" className="text-[#0E6A75] underline font-bold">info@cargo-navis.com</a> and we will make sure to respond back as soon as possible.</p>
           
           <h2 className={`text-2xl font-semibold mt-8 mb-4 ${playfairDisplaySc.className}`}>Introduction</h2>
