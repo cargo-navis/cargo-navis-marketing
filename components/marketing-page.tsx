@@ -62,7 +62,7 @@ export function MarketingPage() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-2">Roadmap</h2>
             <h3 className="text-xl font-semibold tracking-tight sm:text-2xl text-center mb-12">Upcoming Features</h3>
-            <p className="text-center text-gray-500 mb-10">Discover the exciting features we're developing to further enhance your logistics experience.</p>
+            <p className="text-center text-gray-500 mb-10">Discover the exciting features we&#39;re developing to further enhance your logistics experience.</p>
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center text-center">
                 <ArchiveBoxIcon className="h-12 w-12 text-[#0E6A75] mb-4" />
@@ -88,7 +88,7 @@ export function MarketingPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
                 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Have questions or want to learn more? We're here to help.
+                  Have questions or want to learn more? We&#39;re here to help.
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
