@@ -37,7 +37,7 @@ export function MarketingPage() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
-          <div className="container px-4 md:px-6">
+          <div className="container px-4 md:px-6 mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Key Features</h2>
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center text-center">
@@ -59,7 +59,7 @@ export function MarketingPage() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
-          <div className="container px-4 md:px-6">
+          <div className="container px-4 md:px-6 mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-2">Roadmap</h2>
             <h3 className="text-xl font-semibold tracking-tight sm:text-2xl text-center mb-12">Upcoming Features</h3>
             <p className="text-center text-gray-500 mb-10">Discover the exciting features we&#39;re developing to further enhance your logistics experience.</p>
@@ -83,7 +83,7 @@ export function MarketingPage() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100" style={{ background: 'linear-gradient(45deg, rgb(19 148 159 / 50%), 50%, transparent)' }}>
-          <div className="container px-4 md:px-6">
+          <div className="container px-4 md:px-6 mx-auto">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
