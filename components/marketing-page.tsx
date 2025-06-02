@@ -15,11 +15,14 @@ export function MarketingPage() {
           <TruckIcon className="h-6 w-6 text-[#0E6A75]" />
           <span className={`ml-2 text-2xl font-bold text-gray-900 ${playfairDisplaySc.className}`}>CargoNavis</span>
         </Link>
-        <div className="ml-auto">
+        <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
+          <Link className="text-sm font-medium uppercase hover:underline underline-offset-4" href="/tutorials">
+            Tutorials
+          </Link>
           <Link href="https://app.cargo-navis.com">
             <Button className="bg-[#0E6A75] text-white hover:bg-[#0E6A75]/90">Log In</Button>
           </Link>
-        </div>
+        </nav>
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48" style={{ background: 'linear-gradient(45deg,#13949f,35%,transparent)' }}>
@@ -104,7 +107,7 @@ export function MarketingPage() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Cargo Navis d.o.o. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">© 2025 Cargo Navis d.o.o. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="/privacy-policy">
             Privacy Policy
