@@ -26,7 +26,9 @@ export function TutorialsComponent() {
           
           <p className="mb-4">Welcome to the CargoNavis Tutorials section. Here you&apos;ll find comprehensive video guides that will help you master our platform&apos;s features and make the most of your logistics operations. Whether you&apos;re new to CargoNavis or looking to enhance your existing knowledge, these tutorials are designed to provide clear, step-by-step instructions for every aspect of our system.</p>
           
-          <p className="mb-8">Our goal is to empower you with the knowledge and skills needed to efficiently manage your transportation business. From basic navigation to advanced features, these tutorials will guide you through every step of the process.</p>
+          <p className="mb-4">Our goal is to empower you with the knowledge and skills needed to efficiently manage your transportation business. From basic navigation to advanced features, these tutorials will guide you through every step of the process.</p>
+
+          <p className="mb-8">🇭🇷 So far, video tutorials are available in croatian language only.</p>
 
           <h2 className={`text-2xl font-semibold mt-8 mb-4 ${playfairDisplaySc.className}`}>Login (Authentication)</h2>
           <div className="mb-8">
@@ -133,8 +135,15 @@ export function TutorialsComponent() {
             <div className="bg-white p-4 rounded-lg shadow-md mb-4">
               <h3 className="text-xl font-semibold mb-2">Employee Management</h3>
               <p className="mb-4">Set up and manage your team members with proper roles.</p>
-              <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                <p className="text-gray-500">Video Placeholder</p>
+              <div className="aspect-video rounded-lg overflow-hidden">
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                >
+                  <source src="/employees-overview.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>
