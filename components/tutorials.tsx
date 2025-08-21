@@ -78,7 +78,7 @@ export function TutorialsComponent() {
                 </video>
               </div>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md">
+            <div className="bg-white p-4 rounded-lg shadow-md mb-4">
               <h3 className="text-xl font-semibold mb-2">Shipment Alerts</h3>
               <p className="mb-4">Discover visual indicators that help you identify shipments that are not complete or properly assigned, ensuring you never miss critical updates.</p>
               <div className="aspect-video rounded-lg overflow-hidden">
@@ -88,6 +88,20 @@ export function TutorialsComponent() {
                   preload="metadata"
                 >
                   <source src="/shipment-alerts.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-2">Automatically sending Shipments information over Whatsapp</h3>
+              <p className="mb-4">Once shipment is assigned, automatically communicate with designated driver over Whatsapp.</p>
+              <div className="aspect-video rounded-lg overflow-hidden">
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                >
+                  <source src="/shipments-and-whatsapp.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
